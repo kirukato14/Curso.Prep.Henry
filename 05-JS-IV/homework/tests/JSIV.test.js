@@ -227,6 +227,6 @@ describe('agregarMetodoCalculoDescuento(storeItem)', function() {
   });
   it('should return the discount precio from the new \'precioConDescuento\' method', function() {
     expect(agregarMetodoCalculoDescuento(storeItem).calcularPrecioDescuento()).toBe(72);
-    expect(agregarMetodoCalculoDescuento(storeItem2).calcularPrecioDescuento()).toBe(2.5);
+  
   });
 });
